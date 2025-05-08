@@ -1,7 +1,7 @@
 from copy import deepcopy
 import time
 from uuid import uuid4
-from fastapi import Cookie, FastAPI, HTTPException, Query
+from fastapi import Cookie, FastAPI, Query
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
